@@ -36,7 +36,8 @@ It'll be done by Oct 3 2023.
 5th.
 - Developing a code for the business requirements and UI. Anticipated 
 deadline Oct-15
-
+- Documenting finalized requirements and project progress and 
+achievements.
 (Figure out what your major milestones for this project will be, including how long you anticipate it *may* take to reach that point)
 
 # Anticipated Problem
