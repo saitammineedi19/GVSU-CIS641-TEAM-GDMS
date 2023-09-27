@@ -1,6 +1,7 @@
-Team name:
+Team name:GDMS
 
-Team members:
+Team members: Dharani Thallapally, Maniram Tanneti and Sai Satyanarayana 
+Tammineedi
 
 # Introduction
 
