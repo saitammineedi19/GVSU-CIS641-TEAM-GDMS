@@ -4,11 +4,15 @@ Team members:
 
 # Introduction
 
-(In 2-4 paragraphs, describe your project concept)
+In today's competitive business environment, efficient inventory 
+management is crucial for optimizing costs, reducing waste, and ensuring 
+customer satisfaction. This proposal outlines a comprehensive project for 
+the analysis, design, and implementation of an Inventory Management System 
+(IMS). This project assumes that no existing inventory system is in place
 
 # Anticipated Technologies
 
-(What technologies are needed to build this project)
+Python
 
 # Method/Approach
 
