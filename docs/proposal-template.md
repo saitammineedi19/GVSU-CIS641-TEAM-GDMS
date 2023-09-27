@@ -24,6 +24,7 @@ in the project. Based on the requirements, we need to develop a UI to view
 or add the items/ update the quantities to the items in the inventory. For 
 developing this we need to write a code for the user interface and for the 
 business requirement and also for the database operations.
+dharani
 
 (What is your estimated "plan of attack" for developing this project)
 
