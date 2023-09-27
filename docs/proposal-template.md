@@ -29,6 +29,14 @@ business requirement and also for the database operations.
 
 # Estimated Timeline
 
+## Major Milestones:
+- Finalizing on the requirements for which the IMS needs to be developed. 
+It'll be done by Oct 3 2023.
+- Finalizing on the technologies to be adopted. Anticipated deadline Oct 
+5th.
+- Developing a code for the business requirements and UI. Anticipated 
+deadline Oct-15
+
 (Figure out what your major milestones for this project will be, including how long you anticipate it *may* take to reach that point)
 
 # Anticipated Problem
