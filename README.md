@@ -7,7 +7,7 @@ Project description (~1 paragraph)
 * [Sai Satyanarayana 
 Tammineedi](https://github.com/saitammineedi19/CIS641-HW2-Tammineedi.git)
 * [Dharani Thallapally](https://github.com/thallapd/CIS641-HW2-THALLAPALLY.git)
-* [Maniram tanneti] (https://github.com/tannetim/CIS641-HW2-TANNETI.git6)
+* [Maniram tanneti](https://github.com/tannetim/CIS641-HW2-TANNETI.git)
 
 ## Prerequisites
 
