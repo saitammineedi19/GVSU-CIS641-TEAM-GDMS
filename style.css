@@ -6,14 +6,14 @@ body, h1, h2, p, ul, li, a {
 
 /* Set a background color for the body */
 body {
-    background:-o-linear-gradient(top,#64B5F6 25%,#42A5F5 75%)}
-    font-family: Arial, sans-serif;
+    color: #000 !important;
+    background:-webkit-linear-gradient(top,#64B5F6 25%,#42A5F5 75%)
 }
 
 /* Style the header */
 h1 {
-    background-color: #555;
-    color: #fff;
+    color: #000 !important;
+    background:-moz-linear-gradient(top,#64B5F6 25%,#42A5F5 75%)
     padding: 20px;
     text-align: center;
 }
