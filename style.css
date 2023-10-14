@@ -9,6 +9,9 @@
 body {
     font-family: 'Arial', sans-serif;
     background-image: url('https://uploads-ssl.webflow.com/60edc0a8835d5b38bf11f03f/61cf04ea45898934315251e5_Inventory-management-system-objectives.png');
+    background-size: cover; /* Set the background size to cover the container */
+    background-repeat: no-repeat;
+    background-position: center;
     line-height: 1.6;
     color: #333;
 }
