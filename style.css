@@ -15,36 +15,3 @@ body {
     line-height: 1.6;
     color: #333;
 }
-
-/* Header Styles */
-header {
-    color: #fff;
-    padding: 15px 0;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 2.5em;
-}
-
-/* Main Content Styles */
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    background: #f2f8ff !important;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-main {
-    color: #555;
-}
-
-/* Footer Styles */
-footer {
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-}
