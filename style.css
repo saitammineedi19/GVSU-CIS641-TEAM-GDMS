@@ -8,14 +8,14 @@
 /* Body Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fefefe; /* light gray */
+    background: #f9f9f9;
     line-height: 1.6;
-    color: #333; /* dark gray */
+    color: #333;
 }
 
 /* Header Styles */
 header {
-    background: #4CAF50; /* green */
+    background: linear-gradient(to right, #11998e, #38ef7d);
     color: #fff;
     padding: 15px 0;
     text-align: center;
@@ -30,19 +30,19 @@ header h1 {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background-color: #fefefe;
+    background: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 main {
-    color: #555; /* dark gray */
+    color: #555;
 }
 
 /* Footer Styles */
 footer {
-    background: #333; /* dark gray */
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
     color: #fff;
     text-align: center;
     padding: 15px 0;
