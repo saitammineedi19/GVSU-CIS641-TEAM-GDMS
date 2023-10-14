@@ -1,1 +1,42 @@
-@import ‘jekyll-theme-cayman’;
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Set your preferred background color here */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Main Content Styles */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff; /* Set the background color for the main content area */
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
