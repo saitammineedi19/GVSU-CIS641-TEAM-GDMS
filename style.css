@@ -6,10 +6,14 @@
 }
 
 /* Body Styles */
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background-image: url('https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2022/12/29224150/Process-of-Inventory-Management-How-to-Implement-It_feature.jpg');
-    background-size: cover; /* Set the background size to cover the container */
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     line-height: 1.6;
