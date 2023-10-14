@@ -12,7 +12,7 @@ body {
 
 /* Style the header */
 h1 {
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -23,7 +23,8 @@ h1 {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    color: #000 !important;
+    background:-o-linear-gradient(top,#64B5F6 25%,#42A5F5 75%)}
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
