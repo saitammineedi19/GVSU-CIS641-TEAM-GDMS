@@ -30,7 +30,7 @@ header h1 {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background: #f2f8ff;
+    background: #f2f8ff !important;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
