@@ -11,3 +11,13 @@ This document gives you a detailed view of requirements that are gathered in dev
    4. The system shall have a quantity field to enter the quantity of item that gets added to the inventory.
    5. The system shall have a description field to give a brief about the item.
    6. The system shall add the item to the inventory after clicking the submit button.
+      
+2. System shall update the item quantity to the inventory.
+
+  1. The system shall have an item update feature.
+  2. The system then have an Item field for which the item quantity needs to be updated.
+  3. The item field type shall be a picklist value.
+  4. The system shall also display a location field to which the item belongs to.
+  5. The loaction field type shall be a picklist value.
+  6. The system shall display a quantity field to update the quantity.
+  7. The system shall have an update button for updating the entered information.
