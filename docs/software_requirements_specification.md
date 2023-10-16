@@ -1,7 +1,7 @@
 # Overview
 This document gives you a detailed view of requirements that are gathered in developing our term project which is on Inventory Management System.
 
-# Functionl Requirements
+# Functional Requirements
 
 1. The system shall add an item to the Inventory
    
