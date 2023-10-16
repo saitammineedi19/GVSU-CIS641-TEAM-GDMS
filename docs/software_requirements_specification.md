@@ -10,4 +10,4 @@ This document gives you a detailed view of requirements that are gathered in dev
    3. The system shall have a price field to enter the price of the item.
    4. The system shall have a quantity field to enter the quantity of item that gets added to the inventory.
    5. The system shall have a description field to give a brief about the item.
-   6.The system shall add the item to the inventory after clicking the submit button.
+   6. The system shall add the item to the inventory after clicking the submit button.
