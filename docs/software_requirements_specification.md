@@ -21,3 +21,22 @@ This document gives you a detailed view of requirements that are gathered in dev
    5. The loaction field type shall be a picklist value.
    6. The system shall display a quantity field to update the quantity.
    7. The system shall have an update button for updating the entered information.
+
+3. The system shall transfer items from one location to another.
+
+    1. The system shall have an item field to transfer.
+    2. The item field type shall be a picklist value.
+    3. The system shall have a from location field to select the location from which an item needs to be transferred.
+    4. The location from field type shall be a picklist value.
+    5. The system shall have a to location field to select the loaction to which the item needs to be transferred.
+    6. The location to field type shall be a picklist value.
+    7. The system shall have a quantity field to select the quantity that needs to be transferred.
+    8. The system shall have a submit button to click upon which the transfer needs to be completed.
+
+# Non-Functional Requirements:
+
+    1. The response time shall be minimal when performing operations such as add and updating inventory.
+    2. The system shall be user friendly and allow users to perform tasks with minimal training.
+    3. The system shall display error messages and prompts, when the input given by users is inaccurate.
+    4. The system shall constantly provide reliable information and data to users.
+    5. The system's code shall be well-documented and structured, making it easy for developers to maintain and update the system
