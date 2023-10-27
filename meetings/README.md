@@ -4,9 +4,9 @@ Hold a team meeting at least once a week in some format.  Copy the following tem
 
 ## Meeting minutes template
 
-Team name:
+Team name: GDMS
 
-Members present:
+Members present: Dharani Thallapally, Maniram Tanneti, Sai sathyanarayna Tamenedi
 
 Date:
 
