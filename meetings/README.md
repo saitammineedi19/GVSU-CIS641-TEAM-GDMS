@@ -6,11 +6,10 @@ Hold a team meeting at least once a week in some format.  Copy the following tem
 
 Team name: GDMS
 
-Members present: Dharani Thallapally, Maniram Tanneti, Sai sathyanarayna Tamenedi
+Members present: Dharani Thallapally, Maniram Tanneti, Sai Satyanarayana Tammineedi
+Date:10/27/23
 
-Date:
-
-Time:
+Time: 45mins
 
 Discussion points: 
 
