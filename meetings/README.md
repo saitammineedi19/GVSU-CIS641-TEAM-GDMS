@@ -13,13 +13,11 @@ Time: 45mins
 
 Discussion points: 
 
-*
-*
-*
+* Discussed and created the login page for our project.
+
 
 Goals for next week (include responsibilities)
 
-*
-*
-*
+* Need to discuss how to create the ware house manager home page.
+
 
