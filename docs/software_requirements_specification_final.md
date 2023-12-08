@@ -49,6 +49,17 @@ This part contains elements such as an introduction that provides an overview, f
 |FR22|The items table shall contains item ID colun which is auto-incremented|
 |FR23|The items table shall also contain item name, item price, item quantity and item location columns.|
 
+### Data Validations
+| ID | Requirement |
+| :-------------: | :---------- |
+| FR24 | The system shall not allow to add item to the inventory when the item name matches to the existing items at the same location |
+| FR25 | The shall display an error message saying that item already exists in the same location |
+| FR26| The system shall display an error message when a negative number is enter in the price field |
+| FR27 | The system shall display an error message when the quantity that is being transferred is greater than the available quantity at from location |
+| FR28 |The system shall display a successs message when an item is updated is successfully|
+| FR29 |The system shall display a success message when transfer is done successfully.|
+| FR30 |The system shall display success message when an item is added successfully|
+
 ## Non-Functional Requirements
 
 ### <Name of Feature 1>
