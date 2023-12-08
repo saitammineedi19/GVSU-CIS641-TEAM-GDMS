@@ -4,8 +4,10 @@ This Software needs Specification (SRS) document acts as a thorough blueprint de
 </p>
 # Software Requirements
 <Describe the structure of this section>
+  
 ## Functional Requirements
-### Add an Item to the Inventory
+  
+### Add an Item to the Inventory  
 | ID | Requirement |
 | :-------------: | :---------- |
 | FR1 |The system shall have an text field to enter the name of the item.|
@@ -14,6 +16,7 @@ This Software needs Specification (SRS) document acts as a thorough blueprint de
 | FR4 | The system shall have a quantity field to enter the quantity of item that gets added to the inventory.|
 | FR5 |The system shall have a submit button to add the the item to the inventory.|
 |FR6|The sysytem shall autogenerate ID to the newly added Items|
+  
 ### Update an existing Item in the Inventory
 | ID | Requirement |
 | :-------------: | :---------- |
@@ -22,6 +25,7 @@ This Software needs Specification (SRS) document acts as a thorough blueprint de
 | FR9 | The system shall allow to update the price of the item |
 | FR10 | The system shall allow to upddate the quantity of the item |
 |FR11|The system shall allow to update the location of the item|
+
 ### Transferring an Item from one location to another
 | ID | Requirement |
 | :-------------: | :---------- |
@@ -41,7 +45,9 @@ This Software needs Specification (SRS) document acts as a thorough blueprint de
 | FR21 | The systems shall generate items table in the database |
 |FR22|The items table shall contains item ID colun which is auto-incremented|
 |FR23|The items table shall also contain item name, item price, item quantity and item location columns.|
+
 ## Non-Functional Requirements
+
 ### <Name of Feature 1>
 | ID | Requirement |
 | :-------------: | :----------: |
