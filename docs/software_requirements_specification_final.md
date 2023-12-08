@@ -62,10 +62,15 @@ This part contains elements such as an introduction that provides an overview, f
 
 ## Non-Functional Requirements
 
-### <Name of Feature 1>
+### Security
 | ID | Requirement |
 | :-------------: | :----------: |
-| NFR1 | <Non-Functional Requirement 1> |
+| NFR1 | User passwords shall securely hashed before storage, ensuring data security. |
 | NFR2 | < Non-Functional Requirement 2> |
 | NFR3 | < Non-Functional Requirement 3> |
 | ... | ... | ... |
+
+
+# Change management plan
+
+
