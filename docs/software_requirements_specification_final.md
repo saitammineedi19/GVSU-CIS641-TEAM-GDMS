@@ -110,7 +110,7 @@ This part contains elements such as an introduction that provides an overview, f
 
 # Change management plan
 ## Training Plan
-### Detailed assessment of training needs
+### Detailed assessment of training needs:
 - To understand the different demands and skill levels of users, do a thorough assessment.
 - Determine which specific components of the inventory management system require advanced training.
 ### Personalized Training Materials:
