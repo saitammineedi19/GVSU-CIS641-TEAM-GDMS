@@ -89,7 +89,14 @@ This part contains elements such as an introduction that provides an overview, f
 | NFR14 | The system shall support basic responsiveness for different device screen sizes| 
 | NFR15 | The UI shall maintain some consistency across different modules.|
 
-
+### Reliability
+| ID | Requirement |
+| :-------------: | :---------- |
+| NFR16 | The system shall include rudimentary error handling for better resilience. |
+| NFR17 | The system shall include Some error recovery mechanisms.|
+| NFR18 | The system shall maintain stable operations under nominal conditions.|
+| NFR19 | The system shall conduct basic data backups to avoid data loss.| 
+| NFR20 | The system shall have minimal logging for monitoring and debugging purposes.|
 
 # Change management plan
 ## Training Plan
