@@ -80,7 +80,7 @@ This part contains elements such as an introduction that provides an overview, f
 | NFR9 | The system shall Utilize server resources adequately for current functionalities| 
 | NFR10 | The system shall offer acceptable latency in retrieving and processing data |
 
-###Usability
+### Usability
 | ID | Requirement |
 | :-------------: | :---------- |
 | NFR11 | The system shall provide a basic user interface for signup, signin, and inventory management. |
