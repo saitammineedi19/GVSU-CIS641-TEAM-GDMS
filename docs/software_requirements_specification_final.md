@@ -98,6 +98,16 @@ This part contains elements such as an introduction that provides an overview, f
 | NFR19 | The system shall conduct basic data backups to avoid data loss.| 
 | NFR20 | The system shall have minimal logging for monitoring and debugging purposes.|
 
+### Reliability
+| ID | Requirement |
+| :-------------: | :---------- |
+| NFR21 | The system shall ensure database schema versioning to manage future updates. |
+| NFR22 | The system's codebase shall be relatively organized, aiding readability.|
+| NFR23| The system's codebase shall include basic comments and explanations exist, aiding future maintenance.|
+| NFR24 | The system's code shall include basic error handling mechanisms for smoother maintenance.| 
+| NFR25 | The system's codebase shall be version controlled, facilitating collaborative development.|
+
+
 # Change management plan
 ## Training Plan
 A well-planned training plan is essential to guarantee the new application's seamless integration into the client's operations. Initially, a training needs assessment will be conducted to determine the users' present competence levels and identify certain aspects that need to be addressed. Personalized training programs will be developed to accommodate a variety of user roles and will consist of a combination of online lessons, interactive seminars, and large documentation. A phased training strategy will be used, with the first sessions held before the official launch, in order to minimize interruptions. To respond to customer questions, a specialized support staff will be assigned, making use of a helpdesk system or live chat assistance. Through regular refresher courses and advanced training sessions, as well as by actively seeking user feedback for ongoing upgrades, an emphasis on continuous learning will be placed.
