@@ -64,7 +64,7 @@ This part contains elements such as an introduction that provides an overview, f
 
 ### Security
 | ID | Requirement |
-| :-------------: | :----------: |
+| :-------------: | :---------- |
 | NFR1 | User passwords shall securely hashed before storage, ensuring data security. |
 | NFR2 | The system shall perform input validation to prevent some common vulnerabilities like SQL injcetions |
 | NFR3 | The system shall provide basic user authentication for user access control. |
@@ -73,12 +73,22 @@ This part contains elements such as an introduction that provides an overview, f
 
 ### Performance
 | ID | Requirement |
-| :-------------: | :----------: |
-| NFR1 | The system shall respond promptly under normal loads for basic CRUD operations. |
-| NFR2 | The system shall allow minor scalability enhancements|
-| NFR3 | The system shall handle a moderate number of requests per second efficiently. |
-| NFR4 | The system shall Utilize server resources adequately for current functionalities| 
-| NFR5 | The system shall offer acceptable latency in retrieving and processing data |
+| :-------------: | :---------- |
+| NFR5 | The system shall respond promptly under normal loads for basic CRUD operations. |
+| NFR6 | The system shall allow minor scalability enhancements|
+| NFR8 | The system shall handle a moderate number of requests per second efficiently. |
+| NFR9 | The system shall Utilize server resources adequately for current functionalities| 
+| NFR10 | The system shall offer acceptable latency in retrieving and processing data |
+
+###Usability
+| ID | Requirement |
+| :-------------: | :---------- |
+| NFR11 | The system shall provide a basic user interface for signup, signin, and inventory management. |
+| NFR12 | The navigation shall be relatively straightforward between different features.|
+| NFR13 | The  error messages shall provide feedback on user action.|
+| NFR14 | The system shall support basic responsiveness for different device screen sizes| 
+| NFR15 | The UI shall maintain some consistency across different modules.|
+
 
 
 # Change management plan
