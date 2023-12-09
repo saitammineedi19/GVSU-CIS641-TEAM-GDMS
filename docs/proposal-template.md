@@ -4,7 +4,7 @@ Team members: Dharani Thallapally, Maniram Tanneti and Sai Satyanarayana
 Tammineedi
 
 # Introduction
-
+<p align:justify>
 Any business that involves in supply chain management needs to have an 
 efficient inventory management system(IMS). In today's competitive 
 business environment, efficient inventory 
@@ -17,6 +17,7 @@ This program represents a strategic commitment to boost productivity,
 boost competitiveness, and enhance customer service. 
 It embraces sustainable growth and adaptation with data-driven inventory management, 
 optimizing inventory levels, avoiding capital constraints, and reducing customer dissatisfaction
+</p>
 
 # Anticipated Technologies
 
