@@ -66,9 +66,19 @@ This part contains elements such as an introduction that provides an overview, f
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR1 | User passwords shall securely hashed before storage, ensuring data security. |
-| NFR2 | < Non-Functional Requirement 2> |
-| NFR3 | < Non-Functional Requirement 3> |
-| ... | ... | ... |
+| NFR2 | The system shall perform input validation to prevent some common vulnerabilities like SQL injcetions |
+| NFR3 | The system shall provide basic user authentication for user access control. |
+| NFR4 | The system shall provide basic validation to ensure data consistency | 
+| NFR5 | The system shall perform secure database operations |
+
+### Performance
+| ID | Requirement |
+| :-------------: | :----------: |
+| NFR1 | The system shall respond promptly under normal loads for basic CRUD operations. |
+| NFR2 | The system shall allow minor scalability enhancements|
+| NFR3 | The system shall handle a moderate number of requests per second efficiently. |
+| NFR4 | The system shall Utilize server resources adequately for current functionalities| 
+| NFR5 | The system shall offer acceptable latency in retrieving and processing data |
 
 
 # Change management plan
