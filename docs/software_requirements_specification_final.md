@@ -119,4 +119,33 @@ The new application's success depends on its smooth integration into the client'
 A comprehensive issue resolution plan will be implemented in order to promptly identify and address any obstacles that may arise. Users will have access to a centralized system for reporting problems, and these reports will undergo a thorough classification and prioritization process according to their level of severity. A team that is committed to providing a timely response will be formed to handle important problems within predetermined time frames. To address found problems, planned upgrades and patch releases will be carried out, and users will be informed in-depth of the release notes. Initiatives aimed at continual development will depend heavily on encouraging consumers to provide feedback on their experiences. The implementation of a methodical methodology aimed at continuously monitoring application performance would facilitate the early detection and resolution of possible problems before they adversely affect users.
 
 
+# Traceability links
+
+<Description of this section>
+
+## Use Case Diagram Traceability
+
+| Artifact ID  | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+| UseCase1 | Move Player | FR5 |
+| … | … | … |
+
+
+## Class Diagram Traceability
+
+| Artifact Name | Requirement ID |
+| :-------------: |:----------: |
+| classPlayer | NFR3, FR5 |
+| … | … | … |
+
+
+## Activity Diagram Traceability
+
+<In this case, it makes more sense (I think, feel free to disagree) to link to the file and to those requirements impacted>
+
+| Artifact ID  | Artifact Name | Requirement ID |
+| :-------------: | :----------: | :----------: |
+| <filename> | Handle Player Input | FR1-5, NFR2 |
+| … | … | … |
+
 
