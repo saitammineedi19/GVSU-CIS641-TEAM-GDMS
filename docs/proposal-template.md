@@ -11,8 +11,10 @@ business environment, efficient inventory
 management is crucial for optimizing costs, reducing waste, and ensuring 
 customer satisfaction. This proposal outlines a comprehensive project for 
 the analysis, design, and implementation of an Inventory Management System 
-(IMS). This project assumes that no existing inventory system is in place.
+(IMS). This project assumes that no existing inventory system is in place.</p>
 
+
+<p align:justify>
 This program represents a strategic commitment to boost productivity,
 boost competitiveness, and enhance customer service. 
 It embraces sustainable growth and adaptation with data-driven inventory management, 
