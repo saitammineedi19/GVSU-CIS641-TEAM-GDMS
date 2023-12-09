@@ -51,9 +51,10 @@ achievements.
 (Figure out what your major milestones for this project will be, including how long you anticipate it *may* take to reach that point)
 
 # Anticipated Problem
-
+<p align='justify'>
 The anticipated problem that we feel to face in this project is to extend 
 it's functionality. The plan is to make this project work in such a way 
 that it should  not be basic nor to make it complicated by adding the 
 every possible requirement that a business can have. Understanding and 
 figuring out the essential requirements is going to be crucial.
+</p>
