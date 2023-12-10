@@ -169,15 +169,17 @@ This part contains elements such as an introduction that provides an overview, f
 
 
 # Traceability links
+<p align='justify'>
+This section contains all the artifacts i.e., use case diagrams, activity diagrams, class diagram, object diagram and the requirement IDs that these artifacts satisfy
+</p>
 
-<Description of this section>
 
 ## Use Case Diagram Traceability
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1 | User authentication and Management | FR31, FR32, FR33, FR34 |
-| UseCase2 | Warehouse Manager activities | FR1-FR17 |
+| [UseCase1](https://github.com/saitammineedi19/GVSU-CIS641-TEAM-GDMS/blob/main/artifacts/Usecase1.png) | User authentication and Management | FR31, FR32, FR33, FR34 |
+| [UseCase2](https://github.com/saitammineedi19/GVSU-CIS641-TEAM-GDMS/blob/main/artifacts/usecase2.png) | Warehouse Manager activities | FR1-FR17 |
 
 
 ## Class Diagram Traceability
