@@ -198,8 +198,8 @@ This part contains elements such as an introduction that provides an overview, f
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| Activity1 | Handle adding an item | FR1-6, FR24-26, NFR4, NFR12-13|
-| Activity2 | Handling updating | FR7-11, FR24-26, NFR4, NFR12-13 |
-| Activity3 | Handling item transfers| FR12-17, FR25-26, NFR4, NFR12-13 |
+| [Activity1](https://github.com/saitammineedi19/GVSU-CIS641-TEAM-GDMS/blob/main/artifacts/Activity%20Diagram%201.jpeg) | Handle adding an item | FR1-6, FR24-26, NFR4, NFR12-13|
+| [Activity2](https://github.com/saitammineedi19/GVSU-CIS641-TEAM-GDMS/blob/main/artifacts/Activity%20Diagram%202.jpeg) | Handling updating | FR7-11, FR24-26, NFR4, NFR12-13 |
+| [Activity3](https://github.com/saitammineedi19/GVSU-CIS641-TEAM-GDMS/blob/main/artifacts/Activity%20Diagram%203.jpeg) | Handling item transfers| FR12-17, FR25-26, NFR4, NFR12-13 |
 
 
