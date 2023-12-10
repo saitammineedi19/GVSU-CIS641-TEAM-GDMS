@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transfer Items</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function submitForm(form) {
+            fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.success); // Show success alert
+                    window.location.reload();
+                } else if (data.error) {
+                    alert(data.error); // Show error alert
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>    
+</head>
+<body>
+    <div class="transfer_items_container">
+    <h1>Transfer Items</h1>
+    <form id="transferForm" action="/transfer_items" method="POST" onsubmit="event.preventDefault(); submitForm(this);">
+        <label for="namee"> name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="location">From Location:</label>
+        <input type="text" id="from_location" name="from_location" required><br><br>
+
+        <label for="location">To Location:</label>
+        <input type="text" id="to_location" name="to_location" required><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required><br><br>
+
+        <input type="submit" value="Transfer">
+
+        <button onclick="Inventory()" class="button-style">Inventory</button>
+
+        <script>
+            function Inventory() {
+                window.location.href = "/index"; // Redirect to the Index page
+            }
+        </script>
+    </form>
+    </div>
+</body>
+</html>

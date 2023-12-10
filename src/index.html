@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GDMS Inventory</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <h1>Welcome to the Inventory</h1>
+    <script>
+        // Function to handle form submission and display alert
+        function submitForm(form) {
+            const price = parseFloat(form.price.value);
+            if (price < 0 || isNaN(price)) {
+                alert('Price cannot be negative or empty.');
+                window.location.reload();
+                return false; // Prevent form submission
+            }
+            fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.message) {
+                    alert(data.message); // Show alert on successful update
+                } else if (data.error) {
+                    alert(data.error); // Show alert if there's an error
+                    window.location.reload(); // Refresh the page after displaying error
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+    
+    
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <form action="/update_item/{{item[0]}}" method="POST" onsubmit="event.preventDefault(); submitForm(this);">
+                    <td>{{ item[0] }}</td>
+                    <td><input type="text" name="name" value="{{ item[1] }}" required></td>
+                    <td><input type="number" name="quantity" value="{{ item[2] }}" required></td>
+                    <td><input type="number" name="price" value="{{ item[3] }}" required></td>
+                    <td><input type="text" name="location" value="{{ item[4] }}" required></td>
+                    <td><input type="submit" value="Update"></td>
+                    </div>
+                </form>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div class="pagination">
+        {% if current_page > 1 %}
+            <a href="{{ url_for('inventory', page=1) }}">First</a>
+            <a href="{{ url_for('inventory', page=current_page-1) }}">Previous</a>
+        {% endif %}
+
+        Page {{ current_page }} of {{ total_pages }}
+
+        {% if current_page < total_pages %}
+            <a href="{{ url_for('inventory', page=current_page+1) }}">Next</a>
+            <a href="{{ url_for('inventory', page=total_pages) }}">Last</a>
+        {% endif %}
+    </div>
+    <div class="add_item">
+        <form action="/add_item" method="GET">
+            <input type="submit" value="Add Item">
+        </form>
+    </div>
+    <div class="transfer_items">
+        <form id="transferForm" action="/transfer_items" method="GET">
+            <input type="hidden" id="name" name="name">
+            <input type="hidden" id="from_location" name="from_location">
+            <input type="hidden" id="to_location" name="to_location">
+            <input type="submit" value="Transfer Item">
+        </form>
+    </div>
+
+    <script>
+        // Function to handle the transfer item action
+        document.querySelector('.transfer-action').addEventListener('click', function(event) {
+            // Prevent default form submission
+            event.preventDefault();
+
+            // Get the clicked item details (assuming the button is clicked within the table row)
+            if (event.target.tagName === 'INPUT' && event.target.value === 'Transfer Item') {
+                let tableRow = event.target.parentNode.parentNode; // Get the parent table row
+                let itemName = tableRow.querySelector('td:nth-child(2)').innerText; // Assuming the item name is in the first column
+                let itemLocation = tableRow.querySelector('td:nth-child(5)').innerText; // Assuming the location is in the fourth column
+
+                // Set the values in the hidden form fields
+                document.getElementById('name').value = itemName;
+                document.getElementById('location').value = itemLocation;
+                document.getElementById('to_location').value = '';
+
+                // Submit the form
+                document.getElementById('transferForm').submit();
+            }
+        });
+    </script>
+</body>
+<p><a href="{{ url_for('logout') }}" class="btn">Log Out</a>
+</html>

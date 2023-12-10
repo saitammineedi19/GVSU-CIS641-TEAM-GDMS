@@ -1,0 +1,48 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://articles.cyzerg.com/hubfs/Warehouse%20Inventory%20Management.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    color: blue;
+
+}
+.add_item_container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 90px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+.transfer_items_container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 90px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
