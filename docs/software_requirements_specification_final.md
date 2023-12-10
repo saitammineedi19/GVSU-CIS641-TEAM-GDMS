@@ -196,7 +196,6 @@ This section contains all the artifacts i.e., use case diagrams, activity diagra
 
 ## Activity Diagram Traceability
 
-<In this case, it makes more sense (I think, feel free to disagree) to link to the file and to those requirements impacted>
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
