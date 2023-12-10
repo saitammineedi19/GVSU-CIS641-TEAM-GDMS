@@ -18,7 +18,7 @@ This part contains elements such as an introduction that provides an overview, f
 | FR3 |The system shall have a number field to enter the price of the item.|
 | FR4 | The system shall have a quantity field to enter the quantity of item that gets added to the inventory. |
 | FR5 |The system shall have a submit button to add the the item to the inventory. |
-|FR6|The sysytem shall autogenerate ID to the newly added Items. |
+| FR6 |The sysytem shall autogenerate ID to the newly added Items. |
   
 ### Update an existing Item in the Inventory
 | ID | Requirement |
@@ -27,7 +27,7 @@ This part contains elements such as an introduction that provides an overview, f
 | FR8 | The system shall allow to update the item name. |
 | FR9 | The system shall allow to update the price of the item. |
 | FR10 | The system shall allow to upddate the quantity of the item. |
-|FR11|The system shall allow to update the location of the item. |
+| FR11 |The system shall allow to update the location of the item. |
 
 ### Transferring an Item from one location to another
 | ID | Requirement |
@@ -36,8 +36,8 @@ This part contains elements such as an introduction that provides an overview, f
 | FR13 | The system shall display a transfer form after clicking on Transfer button. |
 | FR14 | The system shall have a text field to enter the item name on the tranfer form. |
 | FR15 | The system shall have a text field to enter the location from which item is transferring. |
-|FR16|The system shall have a text field to enter the location to which item needs to be transferred. |
-|FR17|The system shall have a number field to enter the quantity that is being transferred. |
+| FR16 |The system shall have a text field to enter the location to which item needs to be transferred. |
+| FR17 |The system shall have a number field to enter the quantity that is being transferred. |
 
 ### Database Management
 | ID | Requirement |
@@ -46,15 +46,15 @@ This part contains elements such as an introduction that provides an overview, f
 | FR19 | The users table shall contain users ID column which is auto-incremented. |
 | FR20 | The users table shall contain username and password columns. |
 | FR21 | The systems shall generate items table in the database. |
-|FR22|The items table shall contains item ID colun which is auto-incremented. |
-|FR23|The items table shall also contain item name, item price, item quantity and item location columns.|
+| FR22 |The items table shall contains item ID colun which is auto-incremented. |
+| FR23 |The items table shall also contain item name, item price, item quantity and item location columns.|
 
 ### Data Validations
 | ID | Requirement |
 | :-------------: | :---------- |
 | FR24 | The system shall not allow to add item to the inventory when the item name matches to the existing items at the same location. |
 | FR25 | The shall display an error message saying that item already exists in the same location. |
-| FR26| The system shall display an error message when a negative number is enter in the price field. |
+| FR26 | The system shall display an error message when a negative number is enter in the price field. |
 | FR27 | The system shall display an error message when the quantity that is being transferred is greater than the available quantity at from location. |
 | FR28 |The system shall display a successs message when an item is updated is successfully. |
 | FR29 |The system shall display a success message when transfer is done successfully. |
@@ -176,16 +176,20 @@ This part contains elements such as an introduction that provides an overview, f
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1 | Move Player | FR5 |
-| … | … | … |
+| UseCase1 | User authentication and Management | FR31, FR32, FR33, FR34 |
+| UseCase2 | Warehouse Manager activities | FR1-FR17 |
 
 
 ## Class Diagram Traceability
 
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
-| classPlayer | NFR3, FR5 |
-| … | … | … |
+| Inventory Class | FR1-FR17 |
+| Add Item Class | FR1-FR6 |
+| Update item class | FR7-FR11 |
+| Transfer Class | FR12-FR17 |
+| User authentication class | FR31-FR34 |
+| Database class | FR18-FR23 |
 
 
 ## Activity Diagram Traceability
