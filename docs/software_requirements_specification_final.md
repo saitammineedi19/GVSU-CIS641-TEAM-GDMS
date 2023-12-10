@@ -117,6 +117,7 @@ This part contains elements such as an introduction that provides an overview, f
 
 
 # Change management plan
+Developing a change management plan for the successful integration of our new Inventory Management System into the customer's business involves strategic considerations
 ## Training Plan
 ### Detailed assessment of training needs:
 - To understand the different demands and skill levels of users, do a thorough assessment.
