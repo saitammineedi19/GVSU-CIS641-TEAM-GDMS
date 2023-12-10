@@ -56,9 +56,9 @@ This part contains elements such as an introduction that provides an overview, f
 | FR25 | The shall display an error message saying that item already exists in the same location. |
 | FR26 | The system shall display an error message when a negative number is enter in the price field. |
 | FR27 | The system shall display an error message when the quantity that is being transferred is greater than the available quantity at from location. |
-| FR28 |The system shall display a successs message when an item is updated is successfully. |
-| FR29 |The system shall display a success message when transfer is done successfully. |
-| FR30 |The system shall display success message when an item is added successfully. |
+| FR28 | The system shall display a successs message when an item is updated is successfully. |
+| FR29 | The system shall display a success message when transfer is done successfully. |
+| FR30 | The system shall display success message when an item is added successfully. |
 
 ### User Authentication and Management
 | ID | Requirement |
@@ -198,7 +198,8 @@ This part contains elements such as an introduction that provides an overview, f
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| <filename> | Handle Player Input | FR1-5, NFR2 |
-| … | … | … |
+| Activity1 | Handle adding an item | FR1-6, FR24-26, NFR4, NFR12-13|
+| Activity2 | Handling updating | FR7-11, FR24-26, NFR4, NFR12-13 |
+| Activity3 | Handling item transfers| FR12-17, FR25-26, NFR4, NFR12-13 |
 
 
